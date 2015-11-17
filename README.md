@@ -8,7 +8,7 @@ A solarized color theme for lightline.vim
 
 2.	Add this repo to your favorite vim plugin manager
 
-[NeoBundle](https://github.com/Shougo/neobundle.vim) is recommended
+	[NeoBundle](https://github.com/Shougo/neobundle.vim) is recommended
 
 ```
 NeoBundle 'taohex/lightline-solarized'
