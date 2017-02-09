@@ -2,7 +2,7 @@
 
 A solarized color theme for lightline.vim
 
-# Usage
+## Usage
 
 1.	Make sure you've already installed [lightline.vim](https://github.com/itchyny/lightline.vim)
 
@@ -10,26 +10,26 @@ A solarized color theme for lightline.vim
 
 	If you are using [Dein.vim](https://github.com/Shougo/dein.vim) (recommended)
 
-	```
+	```vim
 	call dein#add('taohex/lightline-solarized')
 	```
 
 	If you are using [NeoBundle](https://github.com/Shougo/neobundle.vim)
 
-	```
+	```vim
 	NeoBundle 'taohex/lightline-solarized'
 	```
 
 3.	Add this block to your init.vim (for neovim) or .vimrc (for vim)
 
-	```
+	```vim
 	" use lightline-solarized in lightline
 	let g:lightline = {
 		\ 'colorscheme': 'lightline_solarized',
 		\ }
 	```
 
-# Customizing Colors
+## Customizing Colors
 
 For example, if you want to change the color of the currently selected buffer, you can modify `autoload/lightline/colorscheme/lightline_solarized_dark.vim` and change the line `let s:p.tabline.tabsel = ...`. It defines the colors for the selected tab in tabline. In general, each palette in this file follows the following style: `let s:p.{mode}.{where} = [ [ {fg}, {bg} ] ]`.
 
