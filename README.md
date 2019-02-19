@@ -11,13 +11,13 @@ A solarized color theme for lightline.vim
 	If you are using [Dein.vim](https://github.com/Shougo/dein.vim) (recommended)
 
 	```vim
-	call dein#add('taohex/lightline-solarized')
+	call dein#add('taohexxx/lightline-solarized')
 	```
 
 	If you are using [NeoBundle](https://github.com/Shougo/neobundle.vim)
 
 	```vim
-	NeoBundle 'taohex/lightline-solarized'
+	NeoBundle 'taohexxx/lightline-solarized'
 	```
 
 3.	Add this block to your init.vim (for neovim) or .vimrc (for vim)
